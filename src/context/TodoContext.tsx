@@ -1,6 +1,5 @@
 import React, { createContext, useState } from 'react'
 import { nanoid } from 'nanoid'
-import { useLocalStorage } from 'usehooks-ts'
 
 interface TodoContextProps {
   todos: Todo[]
